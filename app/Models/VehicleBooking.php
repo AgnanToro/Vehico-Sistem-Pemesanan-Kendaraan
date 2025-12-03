@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class VehicleBooking extends Model
 {
     protected $fillable = [
-        'vehicle_id', 'driver_id', 'booked_by', 'start_date', 'end_date',
-        'purpose', 'destination', 'status'
+        'vehicle_id', 'driver_id', 'booked_by', 'client_name', 'client_phone',
+        'start_date', 'end_date', 'purpose', 'destination', 'status'
     ];
 
     protected $casts = [
